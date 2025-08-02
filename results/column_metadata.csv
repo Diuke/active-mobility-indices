@@ -1,0 +1,52 @@
+column_name,description,type
+id,Unique Identifyer of the urban area.,int
+city,The name of the main city inside the urban area from GHS-UCDB.,string
+area,Total urban area in squared kilometers as reported in the GHS-UCDB.,int
+geoarea,Aggregated 2-letter code for geographical area from GHS-UCDB.,string
+population,Total estimated population count in the urban area as reported by the GHS-UCDB.,float
+climate_class,Numerical code of the Koppen-Geiger climate class as reported by the GHS-UCDB. ,int
+builtup_area,Built-up area of the city as reported by the GHS-UCDB.,float
+income_group,Income group according to the classification of the World Bank as reported by the GHS-UCDB.,string
+orientation_entropy,Orientation entropy.,float
+walk_prox_poi_mean,Average Proximity to Points of Interest over the pedestrian network.,float
+walk_prox_poi_median,Median Proximity to Points of Interest over the pedestrian network.,int
+walk_prox_poi_range,Value range of the Proximity to Points of Interest over the pedestrian network.,int
+walk_prox_poi_std,Standard deviation of the Proximity to Points of Interest over the pedestrian network.,float
+walk_prox_poi_iqr,Interquartile range of the Proximity to Points of Interest over the pedestrian network.,float
+walk_prox_pub_transport_mean,Average Proximity to Public Transport over the pedestrian network.,float
+walk_prox_pub_transport_median,Median Proximity to Public Transport over the pedestrian network.,int
+walk_prox_pub_transport_range,Value range of the Proximity to Public Transport over the pedestrian network.,int
+walk_prox_pub_transport_std,Standard deviation of the Proximity to Public Transport over the pedestrian network.,float
+walk_prox_pub_transport_iqr,Interquartile range of the Proximity to Public Transport over the pedestrian network.,int
+walk_circuity,Circuity or sinuosity of the pedestrian network.,float
+walk_street_len_mean,Average street length of the pedestrian network.,float
+walk_street_len_median,Median street length of the pedestrian network.,float
+walk_street_len_range,Range of the street lengths of the pedestrian network.,float
+walk_street_len_std,Standard deviation of the street lengths of the pedestrian network.,float
+walk_street_len_iqr,Interquartile range of the street lengths of the pedestrian network.,float
+walk_street_density,Street density of the pedestrian network.,float
+walk_street_len_total,Total street length of the pedestrian network.,float
+walk_link_node_ratio,Link-Node ratio of the pedestrian network.,float
+walk_intersection_density,Intersection density of the pedestrian network.,float
+walk_intersection_count,Total intersection count of the pedestrian network.,int
+bike_prox_poi_mean,Average Proximity to Points of Interest over the cycling network.,float
+bike_prox_poi_median,Median Proximity to Points of Interest over the cycling network.,int
+bike_prox_poi_range,Value range of the Proximity to Points of Interest over the cycling network.,int
+bike_prox_poi_std,Standard deviation of the Proximity to Points of Interest over the cycling network.,float
+bike_prox_poi_iqr,Interquartile range of the Proximity to Points of Interest over the cycling network.,int
+bike_slope_mean,Average slope of the segments of the cycling network.,float
+bike_slope_median,Median slope of the segments of the cycling network.,float
+bike_slope_range,Range of the slopes of the segments of the cycling network.,float
+bike_slope_std,Standard deviation of the slopes of the segments of the cycling network.,float
+bike_slope_iqr,Interquartile range of the slopes of the segments of the cycling network.,float
+bike_circuity,Circuity or sinuosity of the cycling network.,float
+bike_street_len_mean,Average street length of the cycling network.,float
+bike_street_len_median,Median street length of the cycling network.,float
+bike_street_len_range,Range of the street lengths of the cycling network.,float
+bike_street_len_std,Standard deviation of the street lengths of the cycling network.,float
+bike_street_len_iqr,Interquartile range of the street lengths of the cycling network.,float
+bike_street_density,Street density of the cycling network.,float
+bike_street_len_total,Total street length of the cycling network.,float
+bike_link_node_ratio,Link-Node ratio of the cycling network.,float
+bike_intersection_density,Intersection density of the cycling network.,float
+bike_intersection_count,Total intersection count of the cycling network.,int
